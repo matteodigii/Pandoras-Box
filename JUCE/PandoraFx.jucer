@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="VFJY3w" name="PandoraFx" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginManufacturer="CMLS">
+  <MAINGROUP id="Xu9rXv" name="PandoraFx">
+    <GROUP id="{A975FCF9-2476-DA8C-45B4-9463D8CA5FEA}" name="Effects">
+      <FILE id="jq0rjh" name="DryWetMixer.cpp" compile="1" resource="0" file="Source/DryWetMixer.cpp"/>
+      <FILE id="CaPzmx" name="DryWetMixer.h" compile="0" resource="0" file="Source/DryWetMixer.h"/>
+      <FILE id="qfGoON" name="PandoraChorus.cpp" compile="1" resource="0"
+            file="Source/PandoraChorus.cpp"/>
+      <FILE id="oBYS3j" name="PandoraChorus.h" compile="0" resource="0" file="Source/PandoraChorus.h"/>
+      <FILE id="Paj0bG" name="PandoraDelay.cpp" compile="1" resource="0"
+            file="Source/PandoraDelay.cpp"/>
+      <FILE id="RTAFRD" name="PandoraDelay.h" compile="0" resource="0" file="Source/PandoraDelay.h"/>
+      <FILE id="eHbA3B" name="PandoraDistortion.cpp" compile="1" resource="0"
+            file="Source/PandoraDistortion.cpp"/>
+      <FILE id="a9ESqZ" name="PandoraDistortion.h" compile="0" resource="0"
+            file="Source/PandoraDistortion.h"/>
+      <FILE id="uiYN4r" name="PandoraPhaser.cpp" compile="1" resource="0"
+            file="Source/PandoraPhaser.cpp"/>
+      <FILE id="BhMEbb" name="PandoraPhaser.h" compile="0" resource="0" file="Source/PandoraPhaser.h"/>
+      <FILE id="xf3LxG" name="PandoraReverb.cpp" compile="1" resource="0"
+            file="Source/PandoraReverb.cpp"/>
+      <FILE id="woyRd7" name="PandoraReverb.h" compile="0" resource="0" file="Source/PandoraReverb.h"/>
+    </GROUP>
+    <GROUP id="{FBB4A42F-9B02-834D-9F68-32FF1F90B577}" name="Source">
+      <FILE id="dNAEf0" name="ParamIDs.h" compile="0" resource="0" file="Source/ParamIDs.h"/>
+      <FILE id="zZp1K3" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Q8Fr8g" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="qsxs3A" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="wbDeKU" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PandoraFx"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PandoraFx"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Program Files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Program Files/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
